@@ -1,0 +1,141 @@
+/* Estilos Generales */
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background-color: #f6f6f6;  /* Fondo suave y neutro */
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* Encabezado */
+  header {
+    background-color: #232f3e;  /* Azul oscuro similar al de Amazon */
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    font-size: 28px;
+    margin: 0;
+    font-weight: bold;
+  }
+  
+  nav a {
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    margin: 0 15px;
+    transition: color 0.3s ease;
+  }
+  
+  nav a:hover {
+    color: #f2a900; /* Un amarillo suave para el hover */
+  }
+  
+  /* Contenedor principal del formulario de login */
+  .login-container {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin: 40px auto;
+    padding: 25px;
+    font-size: 16px;
+  }
+  
+  .login-container h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #232f3e;
+    text-align: center;
+    font-weight: bold;
+  }
+  
+  /* Estilo del formulario de login */
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  input[type="email"], input[type="password"] {
+    width: 100%;
+    padding: 14px;
+    font-size: 16px;
+    border: 1px solid #d0d0d0;
+    border-radius: 5px;
+    background-color: #fafafa;
+    color: #333;
+    margin-top: 8px;
+    box-sizing: border-box;
+  }
+  
+  input[type="email"]:focus, input[type="password"]:focus {
+    outline: none;
+    border-color: #ff9900; /* Color similar a Amazon */
+  }
+  
+  button[type="submit"] {
+    width: 100%;
+    padding: 14px;
+    background-color: #ff9900;  /* Naranja de Amazon */
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: #f2a900;
+  }
+  
+  /* Enlace para registro */
+  .register-link {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .register-link a {
+    color: #007bff;
+    font-size: 16px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .register-link a:hover {
+    color: #0056b3;
+  }
+  
+  /* Pie de página */
+  footer {
+    background-color: #232f3e;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    font-size: 14px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    margin: 0;
+  }
+  
+  /* Diseño para pantallas más pequeñas */
+  @media (max-width: 768px) {
+    .login-container {
+        width: 90%;
+    }
+  
+    header h1 {
+        font-size: 24px;
+    }
+  
+    .login-container h2 {
+        font-size: 20px;
+    }
+  }
+  

@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Carrito</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns logo">
+                <img src="img/logo.png" id="logo">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button">Vaciar Carrito</a>
+                                    <a href="pagos.html" class="pago">Pagar</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="img-principal">
+                            <img src="logoo.png" class="principal">
+                            <h2 class="left">BIENVENIDO WORLD CAP</h2>
+                        </div>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="yankee.webp" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>GORRA YANKEE</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$250  <span class="u-pull-right ">$200</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="boston.avif" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA BOSTON</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$270<span class="u-pull-right ">$210</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="dodger.avif" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA DODGER</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$180  <span class="u-pull-right ">$150</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="licey.jpg" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>GORRA LICEY</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$150  <span class="u-pull-right ">$100</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="aguila.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA LICEY</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$100  <span class="u-pull-right ">$75</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="chicago bulls.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA CHICAGO BULLS</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$130  <span class="u-pull-right ">$95</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="lakers.png" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>GORRA LAKERS</h4>
+                        <br>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$200  <span class="u-pull-right ">$145</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="gorra nike.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA NIKE</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$150  <span class="u-pull-right ">$100</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="jordan.png" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA JORDAN</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$190 <span class="u-pull-right ">$115</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="adidas.avif" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>GORRA ADIDAS</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$100  <span class="u-pull-right ">$80</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="gucci.avif" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>GORRA GUCCI</h4>
+                                <br>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$600<span class="u-pull-right ">$550</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="true religion.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>GORRA TRUE RELIGION</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$400  <span class="u-pull-right ">$325</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div>  
+    <script src="js/app.js"></script>
+    <script src="js/pago.js"></script>
+</body>
+</html>
